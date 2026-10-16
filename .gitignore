@@ -1,0 +1,100 @@
+# ============================
+# OS & System Files
+# ============================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================
+# Environment & Secrets
+# ============================
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+*.pem
+*.key
+*.cert
+
+# ============================
+# Node.js / npm / yarn / pnpm
+# ============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================
+# Build Outputs
+# ============================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vite/
+.svelte-kit/
+.parcel-cache/
+.cache/
+*.min.js
+*.min.css
+
+# ============================
+# Editor & IDE Files
+# ============================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# ============================
+# Logs & Debug
+# ============================
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# ============================
+# Testing & Coverage
+# ============================
+coverage/
+.nyc_output/
+*.lcov
+
+# ============================
+# Miscellaneous
+# ============================
+*.tmp
+*.bak
+*.orig
+*.zip
+*.tar.gz
+*.rar
+
+# ============================
+# AI / Agent Tool Directories
+# ============================
+.gemini/
+.agents/
